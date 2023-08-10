@@ -1,0 +1,28 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "author": "Subhojit Debnath",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mailgun-js": "^0.22.0",
+    "mailgun.js": "^9.2.0",
+    "mongodb": "^4.16.0",
+    "mongoose": "^7.3.4",
+    "sharp": "^0.32.4",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
